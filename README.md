@@ -9,4 +9,4 @@ in the root directory, this will launch a sbt interactive shell. You can use the
 
 # Testing that your installation is correct
 
-*Without coding anything* you should be able to run the `fastOptJS` and you should see some fine-art when opening `index.html` in your browser.
+**Without coding anything** you should be able to run the `fastOptJS` and see some fine-art when opening `index.html` in your browser.
