@@ -14,7 +14,7 @@ sealed trait ShapeAttributes {
   // Add more attributes here
 }
 
-case class ComposedShape() extends Shape {
+case class ComposedShape(var l: List[Shape]) extends Shape {
   def map(f: Shape => Shape) : ComposedShape = ???
   def flatMap(f: Shape => IterableOnce[Shape]) : ComposedShape = ???
   def foreach[B](f: Shape => B) : Unit = ???
