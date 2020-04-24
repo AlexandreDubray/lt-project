@@ -15,5 +15,3 @@ lazy val projects = crossProject(JSPlatform, JVMPlatform).in(file(".")).settings
 ).jvmSettings(
   libraryDependencies += "org.scalatest" % "scalatest_2.13" % "3.1.1" % "test",
 )
-
-

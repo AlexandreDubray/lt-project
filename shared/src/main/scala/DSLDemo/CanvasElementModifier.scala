@@ -1,6 +1,6 @@
 package DSLDemo
 
-trait CanvasElementModifier[ApplyOn <: Shape] {
+trait CanvasElementModifier[-ApplyOn <: Shape] {
   def change(x: ApplyOn): Unit
 }
 
