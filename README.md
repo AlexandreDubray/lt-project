@@ -5,7 +5,7 @@ in the root directory, this will launch a sbt interactive shell. You can use the
 
 - `fastOptJS` will compile your code and produce a javascript script. This is the script that is included in the `index.html` file
 - `~fastOptJS` is the same command as before except that it is triggered automatically when there is changes in your files.
-- `test` will launch the tests that are given to you
+- `projectsJVM/test` will launch the tests that are given to you
 
 # Testing that your installation is correct
 
